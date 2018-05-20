@@ -1,0 +1,21 @@
+.datePicker-group {
+    input {
+      border:none;
+      border-bottom: solid 1px black;
+    }
+
+    .react-datepicker__input-container:after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    height:20px;
+    background: url("date.jpg");
+  }
+
+  .datePickerInput {
+    float: left;
+  }
+}
